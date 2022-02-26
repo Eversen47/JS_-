@@ -37,11 +37,39 @@ line-height: 49px;
 .vid-flower {
     display: flex;
 }
-.vid-flower-all {
-    flex: 6;
+.vid-flower-all1 {
+    position: absolute;
+    width: 150px;
+height: 150px;
+left: 630px;
+top: 255px;
+}
+.vid-flower-all2 {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 1023px;
+top: 255px;
+}
+.vid-flower-all3 {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 1419px;
+top: 255px;
+}
+.vid-text {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+}
+.info-text {
+    width: 124%;
+    border-radius: 70px;
+    padding: 14px;    
+}
+.h2 {
+    margin-top:20px;
+  border-top: 3px solid rgb(170, 97, 97);
+  height:50%;
 }
