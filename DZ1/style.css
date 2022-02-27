@@ -6,7 +6,7 @@ ul {
     padding: 0;
 }
 .container {
-    width: 1140px;
+    width: 1920px;
     min-height: 100vh;
     margin: 0 auto;
 }
@@ -16,7 +16,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background: #FFFFFF;
-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
 h1 {
     position: absolute;
@@ -64,12 +64,86 @@ top: 255px;
     align-items: center;
 }
 .info-text {
-    width: 124%;
+    width: 100%;
     border-radius: 70px;
-    padding: 14px;    
+    padding: 0px;
+    text-align: center    
 }
 .h2 {
     margin-top:20px;
   border-top: 3px solid rgb(170, 97, 97);
   height:50%;
+}
+.line {
+    position: absolute;
+   width: 1137.5px;
+   left: 767px;
+top: 579px;
+height: 3px;
+background-color: rgb(238, 212, 202);
+max-width: 700px;
+margin: 0 auto;
+}
+.text-stix-style {
+    position: absolute;
+border-radius: 70px;
+padding: 1px 700px 80px;
+height: 81px;
+left: 100px;
+top: 630px;
+margin: auto;
+font-family: Montserrat;
+font-style: italic;
+font-weight: 300;
+font-size: 23px;
+line-height: 98%;
+text-align: center;
+color: #FF445A;
+}
+.line2 {
+    position: absolute;
+   width: 1137.5px;
+   left: 767px;
+top: 729px;
+height: 3px;
+background-color: rgb(238, 212, 202);
+max-width: 700px;
+margin: 0 auto;
+}
+.test-stix2 {
+    position: absolute;
+    width: 284px;
+    height: 254px;
+left: 626px;
+top: 795px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+text-align: left;
+color: #424242;
+}
+.byket {
+    position: absolute;
+width: 244px;
+height: 282px;
+left: 1266px;
+top: 796px;
+background: url(byket.png);
+filter: drop-shadow(30px 40px 40px rgba(255, 181, 181, 0.5));
+}
+footer {
+    position: absolute;
+    width: 1920px;
+height: 80px;
+left: 100px;
+top: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFB5B5;
+    box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
